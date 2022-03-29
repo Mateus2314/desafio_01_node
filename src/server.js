@@ -1,3 +1,3 @@
-const app = require('./');
-
-app.listen(3333);
+const app = require('./index');
+const port = 3333;
+app.listen(port);
